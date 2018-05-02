@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def info_list(request):
+    return render(request, 'infoCard/info_list.html', {})
